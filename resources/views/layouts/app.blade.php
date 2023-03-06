@@ -18,9 +18,7 @@
     <!-- Icon Title -->
     <link rel="icon" href="dist/img/AdminLTELogo.png">
 
-    <script>
-        window.alert('Selamat Datang');
-    </script>
+    @yield('alert')
 </head>
 
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
@@ -122,7 +120,7 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Dashboard v2</h1>
+                            <h1 class="m-0">Dashboard</h1>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->

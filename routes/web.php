@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PengalamanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,10 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index']) -> name('home');
 Route::get('/home', [HomeController::class, 'index']) -> name('home');
+
+Route::prefix('/profil') -> group (function () {
+    Route::get('/rafi', [ProfileController::class, 'rafi']);
+    Route::get('/raden', [ProfileController::class, 'raden']);
+}) -> name('profil');
+
+Route::get('/pengalaman', [PengalamanController::class, 'pengalaman']) -> name('pengalaman');
