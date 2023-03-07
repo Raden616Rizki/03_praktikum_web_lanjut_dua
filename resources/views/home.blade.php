@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('title', 'Dashboard')
+@section('sub-title', 'Dashboard')
 @section('alert')
     <script>
         window.alert('Selamat Datang');
