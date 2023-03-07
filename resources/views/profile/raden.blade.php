@@ -1,8 +1,5 @@
 @extends('layouts.app')
 @section('title', 'Raden Rizki')
-<<<<<<< HEAD
-
-=======
 @section('sub-title', 'Raden Rizki')
 @section('content')
 <section class="content">
@@ -129,4 +126,3 @@
     </div><!-- /.container-fluid -->
 </section>
 @endsection
->>>>>>> 090fa538795fb1f021d7ec56a027f047c37544c2

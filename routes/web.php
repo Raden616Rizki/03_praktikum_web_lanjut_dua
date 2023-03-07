@@ -21,10 +21,6 @@ use App\Http\Controllers\PengalamanController;
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', [HomeController::class, 'index']) -> name('home');
-<<<<<<< HEAD
-// Route::get('/home', [HomeController::class, 'index']) -> name('home');
-=======
->>>>>>> 090fa538795fb1f021d7ec56a027f047c37544c2
 
 Route::prefix('profil') -> group (function () {
     Route::get('/rafi', [ProfileController::class, 'rafi']);
