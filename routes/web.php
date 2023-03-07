@@ -21,9 +21,9 @@ use App\Http\Controllers\PengalamanController;
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', [HomeController::class, 'index']) -> name('home');
-Route::get('/home', [HomeController::class, 'index']) -> name('home');
+// Route::get('/home', [HomeController::class, 'index']) -> name('home');
 
-Route::prefix('/profil') -> group (function () {
+Route::prefix('profil') -> group (function () {
     Route::get('/rafi', [ProfileController::class, 'rafi']);
     Route::get('/raden', [ProfileController::class, 'raden']);
 }) -> name('profil');
