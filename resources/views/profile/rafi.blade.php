@@ -11,7 +11,7 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid " src="{{asset('dist/img/')  }}"
+                            <img class="profile-user-img img-fluid " src="{{asset('image/rafi-profile.jpg')  }}"
                                 alt="User profile picture">
                         </div>
 
@@ -57,7 +57,7 @@
                         <p class="text-muted">Wlingi, Kab Blitar Jawa Timur</p>
 
                         {{-- <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong> --}}
-{{-- 
+{{--
                         <p class="text-muted">
                             <span class="tag tag-danger">UI Design</span>
                             <span class="tag tag-success">Coding</span>
@@ -83,7 +83,7 @@
                     <div class="card-body">
                         <div class="tab-content">
                             <div class="active tab-pane" id="activity">
-                                
+
 
                                 <h1>Hobi</h1>
 
@@ -112,7 +112,7 @@
                                 </div>
 
 
-                            
+
                             </div>
                         </div>
                         <!-- /.tab-content -->
