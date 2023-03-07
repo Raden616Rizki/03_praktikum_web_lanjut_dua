@@ -90,16 +90,16 @@
                                 <div class="row mb-3">
                                     <div class="col-sm-6">
                                         <img class="img-fluid"
-                                            src="https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg"
-                                            alt="Menggambar">
+                                            src="https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp"
+                                            alt="Bermain Kalimba">
                                     </div>
                                     <!-- /.col -->
                                     <div class="col-sm-6">
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <img class="img-fluid mb-3"
-                                                    src="https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp"
-                                                    alt="Bermain kalimba">
+                                                src="https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg"
+                                                    alt="Menggambar">
                                             </div>
                                         </div>
                                         <div class="row">
