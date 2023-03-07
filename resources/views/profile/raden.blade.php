@@ -11,8 +11,8 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid img-circle" src="{{asset('dist/img/')  }}"
-                                alt="User profile picture">
+                            <img class="profile-user-img img-fluid img-circle"
+                                src="{{asset('image/foto_profile.jpeg')  }}" alt="User profile picture">
                         </div>
 
                         <h3 class="profile-username text-center">Raden Rizki</h3>
@@ -57,7 +57,7 @@
                         <p class="text-muted">Doko, Kab Blitar Jawa Timur</p>
 
                         {{-- <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong> --}}
-{{-- 
+                        {{--
                         <p class="text-muted">
                             <span class="tag tag-danger">UI Design</span>
                             <span class="tag tag-success">Coding</span>
@@ -83,37 +83,36 @@
                     <div class="card-body">
                         <div class="tab-content">
                             <div class="active tab-pane" id="activity">
-                                
+
 
                                 <h1>Hobi</h1>
 
                                 <div class="row mb-3">
                                     <div class="col-sm-6">
-                                        <img class="img-fluid" src="{{ asset('dist/img/') }}" alt="Photo">
+                                        <img class="img-fluid"
+                                            src="https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg"
+                                            alt="Menggambar">
                                     </div>
                                     <!-- /.col -->
                                     <div class="col-sm-6">
                                         <div class="row">
                                             <div class="col-sm-6">
-                                                <img class="img-fluid mb-3" src="{{asset('dist/img/')  }}"
-                                                    alt="Photo">
-                                                <img class="img-fluid" src="{{ asset('dist/img/') }}" alt="Photo">
+                                                <img class="img-fluid mb-3"
+                                                    src="https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp"
+                                                    alt="Bermain kalimba">
                                             </div>
-                                            <!-- /.col -->
+                                        </div>
+                                        <div class="row">
                                             <div class="col-sm-6">
-                                                <img class="img-fluid mb-3" src="{{ asset('dist/img/') }}"
-                                                    alt="Photo">
-                                                <img class="img-fluid" src="{{ asset('dist/img/') }}" alt="Photo">
+                                                <img class="img-fluid mb-3"
+                                                    src="https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Minecraft.jpg"
+                                                    alt="Game">
                                             </div>
-                                            <!-- /.col -->
                                         </div>
                                         <!-- /.row -->
                                     </div>
                                     <!-- /.col -->
                                 </div>
-
-
-                            
                             </div>
                         </div>
                         <!-- /.tab-content -->

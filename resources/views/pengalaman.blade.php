@@ -43,7 +43,7 @@
                             <h3 class="timeline-header"><a href="#">Raden Rizki</a> create new story</h3>
 
                             <div class="timeline-body">
-                                Semester 4 banyak kuliah pagi
+                                Semester 4 banyak kuliah pagi dan pulang sore
                             </div>
                             <div class="timeline-footer">
                                 <a class="btn btn-primary btn-sm">Read more</a>
