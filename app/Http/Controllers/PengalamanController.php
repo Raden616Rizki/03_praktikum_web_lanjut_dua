@@ -8,6 +8,6 @@ class PengalamanController extends Controller
 {
     //
     public function pengalaman() {
-        return view('pengalman');
+        return view('pengalaman');
     }
 }
