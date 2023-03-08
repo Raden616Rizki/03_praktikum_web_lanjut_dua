@@ -11,7 +11,7 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid img-circle" src="{{asset('dist/img/')  }}"
+                            <img class="profile-user-img img-fluid " src="{{asset('image/rafi-profile.jpg')  }}"
                                 alt="User profile picture">
                         </div>
 
@@ -89,22 +89,21 @@
 
                                 <div class="row mb-3">
                                     <div class="col-sm-6">
-                                        <img class="img-fluid" src="{{asset('dist/img/') }}" alt="Photo">
+                                        <img class="img-fluid" src="{{asset('image/bromo.png') }}" alt="Photo">
                                     </div>
                                     <!-- /.col -->
                                     <div class="col-sm-6">
                                         <div class="row">
                                             <div class="col-sm-6">
-                                                <img class="img-fluid mb-3" src="{{asset('dist/img/')  }}"
+                                                <img class="img-fluid mb-3" src="{{asset('image/paris.jpg')  }}"
                                                     alt="Photo">
-                                                <img class="img-fluid" src="{{asset('dist/img/')  }}" alt="Photo">
                                             </div>
                                             <!-- /.col -->
-                                            <div class="col-sm-6">
+                                            {{-- <div class="col-sm-6">
                                                 <img class="img-fluid mb-3" src="{{ asset('dist/img/') }}"
                                                     alt="Photo">
                                                 <img class="img-fluid" src="{{ asset('dist/img/') }}" alt="Photo">
-                                            </div>
+                                            </div> --}}
                                             <!-- /.col -->
                                         </div>
                                         <!-- /.row -->
