@@ -57,7 +57,7 @@
                         <p class="text-muted">Wlingi, Kab Blitar Jawa Timur</p>
 
                         {{-- <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong> --}}
-{{-- 
+{{--
                         <p class="text-muted">
                             <span class="tag tag-danger">UI Design</span>
                             <span class="tag tag-success">Coding</span>
@@ -83,7 +83,7 @@
                     <div class="card-body">
                         <div class="tab-content">
                             <div class="active tab-pane" id="activity">
-                                
+
 
                                 <h1>Hobi</h1>
 
@@ -95,6 +95,7 @@
                                     <div class="col-sm-6">
                                         <div class="row">
                                             <div class="col-sm-6">
+<<<<<<< HEAD
                                                 <img class="img-fluid mb-3" src="{{asset('image/paris.jpg')  }}"
                                                     alt="Photo">
                                             </div>
@@ -104,6 +105,17 @@
                                                     alt="Photo">
                                                 <img class="img-fluid" src="{{ asset('dist/img/') }}" alt="Photo">
                                             </div> --}}
+=======
+                                                <img class="img-fluid mb-3" src="{{asset('image/bromo-2.jpeg')  }}"
+                                                    alt="Photo">
+                                                <img class="img-fluid" src="{{asset('image/bromo-3.jpeg')  }}" alt="Photo">
+                                            </div>
+                                            <!-- /.col -->
+                                            <div class="col-sm-6">
+                                                <img class="img-fluid mb-3" src="{{ asset('image/paris.jpg') }}"
+                                                    alt="Photo">
+                                            </div>
+>>>>>>> 97b01b6503a6f466562ad244229ab6a262c04349
                                             <!-- /.col -->
                                         </div>
                                         <!-- /.row -->
@@ -112,7 +124,7 @@
                                 </div>
 
 
-                            
+
                             </div>
                         </div>
                         <!-- /.tab-content -->

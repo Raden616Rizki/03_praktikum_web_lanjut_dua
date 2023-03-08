@@ -12,21 +12,18 @@
                 <div class="timeline">
                     <!-- timeline time label -->
                     <div class="time-label">
-                        <span class="bg-red">1 Maret 2023</span>
+                        <span class="bg-red">7 Maret 2023</span>
                     </div>
                     <!-- /.timeline-label -->
                     <!-- timeline item -->
                     <div>
                         <i class="fas fa-envelope bg-blue"></i>
                         <div class="timeline-item">
-                            <span class="time"><i class="fas fa-clock"></i> 10:45</span>
+                            <span class="time"><i class="fas fa-clock"></i> 15:00</span>
                             <h3 class="timeline-header"><a href="#">Muhamad Rafi Prabowo</a> create new story</h3>
 
                             <div class="timeline-body">
-                                Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
-                                weebly ning heekya handango imeem plugg dopplr jibjab, movity
-                                jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
-                                quora plaxo ideeli hulu weebly balihoo...
+                               Hidup gini-gini amat yakk
                             </div>
                             <div class="timeline-footer">
                                 <a class="btn btn-primary btn-sm">Read more</a>
