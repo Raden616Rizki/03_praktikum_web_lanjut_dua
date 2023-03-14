@@ -21,6 +21,7 @@ class Hobi extends Model
     public static function getBySlug($slug)
     {
         $id_profil = Profil::getId($slug);
+        echo "<script>console.log('{$id_profil}' );</script>";
         return Hobi::where([
             'id_profil' => $id_profil
         ])->get();

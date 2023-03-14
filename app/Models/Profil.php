@@ -28,6 +28,6 @@ class Profil extends Model
     public static function getId($slug) {
         return Profil::where([
             'slug' => $slug
-        ], 'id_profil')->first();
+        ])->first()->id_profil;
     }
 }

@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 @section('title')
     {{$profil->nama}}
@@ -92,7 +91,7 @@
 
                                 <h1>Hobi</h1>
                                 <div id="cards-box" class="row justify-content-start">
-                                    @foreach ($hobi as $hobis)
+                                    @forelse ($hobi as $hobis)
                                     <div class="col-4">
                                         <div class="card">
                                             <img src="{{$hobis->hobi}}"
@@ -102,7 +101,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    @endforeach
+                                    @empty
+                                    <div class="alert alert-danger">
+                                        Data Hobi Belum Tersedia.
+                                    </div>
+                                    @endforelse
                                     {{-- <div class="col-4">
                                         <div class="card">
                                             <img src="https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp"
