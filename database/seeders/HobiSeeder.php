@@ -18,41 +18,41 @@ class HobiSeeder extends Seeder
     {
         //
         $data = [
-            [
-                'id_profil' => 1,
-                'gambar' => '',
-                'hobi' => "{{asset('image/bromo.png') }}"
-            ],
-            [
-                'id_profil' => 1,
-                'gambar' => '',
-                'hobi' => "{{asset('image/paris.jpg')  }}"
-            ],
-            [
-                'id_profil' => 1,
-                'gambar' => '',
-                'hobi' => "{{asset('image/bromo-2.jpeg')  }}"
-            ],
-            [
-                'id_profil' => 1,
-                'gambar' => '',
-                'hobi' => "{{asset('image/bromo-3.jpeg')  }}"
-            ],
-            [
-                'id_profil' => 2,
-                'gambar' => 'Bermain Kalimba',
-                'hobi' => "https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp"
-            ],
-            [
-                'id_profil' => 2,
-                'gambar' => 'Menggambar',
-                'hobi' => "https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg"
-            ],
-            [
-                'id_profil' => 2,
-                'gambar' => 'Game',
-                'hobi' => "https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Minecraft.jpg"
-            ]
+            // [
+            //     'id_profil' => 1,
+            //     'gambar' => '',
+            //     'hobi' => "bromo.png"
+            // ],
+            // [
+            //     'id_profil' => 1,
+            //     'gambar' => '',
+            //     'hobi' => "paris.jpg"
+            // ],
+            // [
+            //     'id_profil' => 1,
+            //     'gambar' => '',
+            //     'hobi' => "bromo-2.jpeg"
+            // ],
+            // [
+            //     'id_profil' => 1,
+            //     'gambar' => '',
+            //     'hobi' => "bromo-3.jpeg"
+            // ],
+            // [
+            //     'id_profil' => 2,
+            //     'gambar' => 'Bermain Kalimba',
+            //     'hobi' => "https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp"
+            // ],
+            // [
+            //     'id_profil' => 2,
+            //     'gambar' => 'Menggambar',
+            //     'hobi' => "https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg"
+            // ],
+            // [
+            //     'id_profil' => 2,
+            //     'gambar' => 'Game',
+            //     'hobi' => "https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Minecraft.jpg"
+            // ]
         ];
         DB::table('hobis')->insert($data);
     }

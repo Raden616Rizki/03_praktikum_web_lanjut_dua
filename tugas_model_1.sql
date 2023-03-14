@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 14, 2023 at 01:50 AM
+-- Generation Time: Mar 14, 2023 at 04:05 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -57,10 +57,10 @@ CREATE TABLE `hobis` (
 --
 
 INSERT INTO `hobis` (`id_hobi`, `id_profil`, `gambar`, `hobi`, `created_at`, `updated_at`) VALUES
-(1, 1, '', '{{asset(\'image/bromo.png\') }}', NULL, NULL),
-(2, 1, '', '{{asset(\'image/paris.jpg\')  }}', NULL, NULL),
-(3, 1, '', '{{asset(\'image/bromo-2.jpeg\')  }}', NULL, NULL),
-(4, 1, '', '{{asset(\'image/bromo-3.jpeg\')  }}', NULL, NULL),
+(1, 1, '', 'bromo.png', NULL, NULL),
+(2, 1, '', 'paris.jpg', NULL, NULL),
+(3, 1, '', 'bromo-2.jpeg', NULL, NULL),
+(4, 1, '', 'bromo-3.jpeg', NULL, NULL),
 (5, 2, 'Bermain Kalimba', 'https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp', NULL, NULL),
 (6, 2, 'Menggambar', 'https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg', NULL, NULL),
 (7, 2, 'Game', 'https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Minecraft.jpg', NULL, NULL);
@@ -169,8 +169,8 @@ CREATE TABLE `profils` (
 --
 
 INSERT INTO `profils` (`id_profil`, `foto_profil`, `nama`, `slug`, `pendidikan`, `alamat`, `created_at`, `updated_at`) VALUES
-(1, '{{asset(\'image/rafi-profile.jpg\')  }}', 'Muhamad Rafi prabowo', 'rafi', 'SMAN 1 GARUM', 'Wlingi, Kab Blitar Jawa Timur', NULL, NULL),
-(2, '{{asset(\'image/foto_profile.jpeg\')  }}', 'Raden Rizki', 'raden', 'SMKN 1 Doko', 'Doko, Kab Blitar Jawa Timur', NULL, NULL);
+(1, 'rafi-profile.jpg', 'Muhamad Rafi prabowo', 'rafi', 'SMAN 1 GARUM', 'Wlingi, Kab Blitar Jawa Timur', NULL, NULL),
+(2, 'foto_profile.jpeg', 'Raden Rizki', 'raden', 'SMKN 1 Doko', 'Doko, Kab Blitar Jawa Timur', NULL, NULL);
 
 -- --------------------------------------------------------
 
