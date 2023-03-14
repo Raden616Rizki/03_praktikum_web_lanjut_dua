@@ -22,6 +22,6 @@ class ProfileController extends Controller
     public function profil($slug) {
         $profil = Profil::getBySlug($slug);
         $hobi = Hobi::getBySlug($slug);
-        return view('profile')->with('profil', $profil)->with('hobi', $hobi);
+        return view('profile', ['profil' => $profil, 'hobi' => $hobi]);
     }
 }

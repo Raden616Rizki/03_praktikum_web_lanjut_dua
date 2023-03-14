@@ -23,6 +23,6 @@ class Hobi extends Model
         $id_profil = Profil::getId($slug);
         return Hobi::where([
             'id_profil' => $id_profil
-        ])->first();
+        ])->get();
     }
 }

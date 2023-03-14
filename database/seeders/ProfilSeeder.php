@@ -19,14 +19,14 @@ class ProfilSeeder extends Seeder
         //
         $data = [
             // [
-            //     'foto_profil' => "{{asset('image/rafi-profile.jpg')  }}",
+            //     'foto_profil' => "rafi-profile.jpg",
             //     'nama' => 'Muhamad Rafi prabowo',
             //     'slug' => 'rafi',
             //     'pendidikan' => 'SMAN 1 GARUM',
             //     'alamat' => 'Wlingi, Kab Blitar Jawa Timur'
             // ],
             // [
-            //     'foto_profil' => "{{asset('image/foto_profile.jpeg')  }}",
+            //     'foto_profil' => "foto_profile.jpeg",
             //     'nama' => 'Raden Rizki',
             //     'slug' => 'raden',
             //     'pendidikan' => 'SMKN 1 Doko',

@@ -1,6 +1,11 @@
+
 @extends('layouts.app')
-@section('title', "{{$profil->title}}")
-@section('sub-title', "{{$profil->title}}")
+@section('title')
+    {{$profil->nama}}
+@endsection
+@section('sub-title')
+    <p>{{$profil->nama}}</p>
+@endsection
 @section('content')
 <section class="content">
     <div class="container-fluid">
@@ -15,9 +20,9 @@
                                 alt="User profile picture">
                         </div>
 
-                        <h3 class="profile-username text-center">{{$profil->title}}</h3>
+                        <h3 class="profile-username text-center">{{$profil->nama}}</h3>
 
-                        <p class="text-muted text-center">{{$profil->title}}</p>
+                        <p class="text-muted text-center">{{$profil->nama}}</p>
 
                         {{-- <ul class="list-group list-group-unbordered mb-3">
                             <li class="list-group-item">
@@ -47,14 +52,14 @@
                         <strong><i class="fas fa-book mr-1"></i> Pendidikan</strong>
 
                         <p class="text-muted">
-                            SMKN 1 DOKO
+                            {{$profil->pendidikan}}
                         </p>
 
                         <hr>
 
                         <strong><i class="fas fa-map-marker-alt mr-1"></i> Alamat</strong>
 
-                        <p class="text-muted">Doko, Kab Blitar Jawa Timur</p>
+                        <p class="text-muted">{{$profil->alamat}}</p>
 
                         {{-- <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong> --}}
                         {{--
@@ -87,9 +92,21 @@
 
                                 <h1>Hobi</h1>
                                 <div id="cards-box" class="row justify-content-start">
+                                    @foreach ($hobi as $hobis)
                                     <div class="col-4">
                                         <div class="card">
-                                            <img src="https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp" class="card-img-top" alt="Bermain Kalimba">
+                                            <img src="{{$hobis->hobi}}"
+                                                class="card-img-top" alt="{{$hobis->gambar}}">
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted">{{$hobis->gambar}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    @endforeach
+                                    {{-- <div class="col-4">
+                                        <div class="card">
+                                            <img src="https://lzd-img-global.slatic.net/g/p/378984c6a3a18e2cc8894357c746a81e.jpg_720x720q80.jpg_.webp"
+                                                class="card-img-top" alt="Bermain Kalimba">
                                             <div class="card-body">
                                                 <h6 class="card-subtitle mb-2 text-muted">Bermain Kalimba</h6>
                                             </div>
@@ -97,7 +114,8 @@
                                     </div>
                                     <div class="col-4">
                                         <div class="card">
-                                            <img src="https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg" class="card-img-top" alt="Menggambar">
+                                            <img src="https://cdn.eraspace.com/pub/media/wysiwyg/artikel/Tahun_2022/Juli/menggambaripad-2.jpg"
+                                                class="card-img-top" alt="Menggambar">
                                             <div class="card-body">
                                                 <h6 class="card-subtitle mb-2 text-muted">Menggambar</h6>
                                             </div>
@@ -105,12 +123,13 @@
                                     </div>
                                     <div class="col-4">
                                         <div class="card">
-                                            <img src="https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Minecraft.jpg" class="card-img-top" alt="Game">
+                                            <img src="https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Minecraft.jpg"
+                                                class="card-img-top" alt="Game">
                                             <div class="card-body">
                                                 <h6 class="card-subtitle mb-2 text-muted">Game</h6>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 {{-- <div class="row mb-3">
                                     <div class="col-sm-6">
