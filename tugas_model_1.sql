@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 14, 2023 at 04:05 AM
+-- Generation Time: Mar 14, 2023 at 05:16 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -86,8 +86,8 @@ CREATE TABLE `kuliahs` (
 --
 
 INSERT INTO `kuliahs` (`id_kuliah`, `id_profil`, `pengalaman`, `waktu`, `tanggal`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Hidup gini-gini amat yakk', 'Monday, 13 March 2023', '15:11:45', NULL, NULL),
-(2, 2, 'Semester 4 banyak kuliah pagi dan pulang sore', 'Monday, 13 March 2023', '15:11:45', NULL, NULL);
+(1, 1, 'Hidup gini-gini amat yakk', '15:11:45', 'Monday, 13 March 2023', NULL, NULL),
+(2, 2, 'Semester 4 banyak kuliah pagi dan pulang sore', '15:11:45', 'Monday, 13 March 2023', NULL, NULL);
 
 -- --------------------------------------------------------
 

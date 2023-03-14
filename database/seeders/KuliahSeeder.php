@@ -20,18 +20,18 @@ class KuliahSeeder extends Seeder
         $date = $dt -> isoFormat('dddd, D MMMM Y');
         //
         $data = [
-            [
-                'id_profil' => 1,
-                'pengalaman' => 'Hidup gini-gini amat yakk',
-                'waktu' => $date,
-                'tanggal' => $time
-            ],
-            [
-                'id_profil' => 2,
-                'pengalaman' => 'Semester 4 banyak kuliah pagi dan pulang sore',
-                'waktu' => $date,
-                'tanggal' => $time
-            ]
+            // [
+            //     'id_profil' => 1,
+            //     'pengalaman' => 'Hidup gini-gini amat yakk',
+            //     'waktu' => $time,
+            //     'tanggal' => $date
+            // ],
+            // [
+            //     'id_profil' => 2,
+            //     'pengalaman' => 'Semester 4 banyak kuliah pagi dan pulang sore',
+            //     'waktu' => $time,
+            //     'tanggal' => $date
+            // ]
         ];
         DB::table('kuliahs')->insert($data);
     }
