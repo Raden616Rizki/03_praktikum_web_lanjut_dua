@@ -22,9 +22,12 @@ use App\Http\Controllers\PengalamanController;
 
 Route::get('/', [HomeController::class, 'index']) -> name('home');
 
-Route::prefix('profil') -> group (function () {
-    Route::get('/rafi', [ProfileController::class, 'rafi']);
-    Route::get('/raden', [ProfileController::class, 'raden']);
-}) -> name('profil');
+// Route::prefix('profil') -> group (function () {
+//     // Route::get('/rafi', [ProfileController::class, 'rafi']);
+//     // Route::get('/raden', [ProfileController::class, 'raden']);
+//     Route::get('/{slug}', [ProfileController::class, 'profil']);
+// }) -> name('profil');
+
+Route::get('/profil/{slug}', [ProfileController::class, 'profil']) -> name('profil');
 
 Route::get('/pengalaman', [PengalamanController::class, 'pengalaman']) -> name('pengalaman');

@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('title', 'Raden Rizki')
-@section('sub-title', 'Raden Rizki')
+@section('title', "{{$profil->title}}")
+@section('sub-title', "{{$profil->title}}")
 @section('content')
 <section class="content">
     <div class="container-fluid">
@@ -11,13 +11,13 @@
                 <div class="card card-primary card-outline">
                     <div class="card-body box-profile">
                         <div class="text-center">
-                            <img class="profile-user-img img-fluid " src="{{asset('image/foto_profile.jpeg')  }}"
+                            <img class="profile-user-img img-fluid " src="{{$profil->foto_profil}}"
                                 alt="User profile picture">
                         </div>
 
-                        <h3 class="profile-username text-center">Raden Rizki</h3>
+                        <h3 class="profile-username text-center">{{$profil->title}}</h3>
 
-                        <p class="text-muted text-center">Raden Rizki</p>
+                        <p class="text-muted text-center">{{$profil->title}}</p>
 
                         {{-- <ul class="list-group list-group-unbordered mb-3">
                             <li class="list-group-item">

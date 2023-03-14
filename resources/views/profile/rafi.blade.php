@@ -86,7 +86,40 @@
 
 
                                 <h1>Hobi</h1>
-
+                                {{-- <div id="cards-box" class="row justify-content-start">
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <img src="img-fluid" src="{{asset('image/bromo-2.png')}}" class="card-img-top" alt="">
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <img src="{{asset('image/bromo.png') }}" class="card-img-top" alt="">
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <img src="img-fluid" src="{{asset('image/bromo-3.jpeg')  }}" class="card-img-top" alt="">
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card">
+                                            <img src="img-fluid" src="{{ asset('image/paris.jpg') }}" class="card-img-top" alt="">
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> --}}
                                 <div class="row mb-3">
                                     <div class="col-sm-6">
                                         <img class="img-fluid" src="{{asset('image/bromo.png') }}" alt="Photo">
@@ -95,7 +128,7 @@
                                     <div class="col-sm-6">
                                         <div class="row">
                                             <div class="col-sm-6">
-<<<<<<< HEAD
+
                                                 <img class="img-fluid mb-3" src="{{asset('image/paris.jpg')  }}"
                                                     alt="Photo">
                                             </div>
@@ -105,7 +138,7 @@
                                                     alt="Photo">
                                                 <img class="img-fluid" src="{{ asset('dist/img/') }}" alt="Photo">
                                             </div> --}}
-=======
+
                                                 <img class="img-fluid mb-3" src="{{asset('image/bromo-2.jpeg')  }}"
                                                     alt="Photo">
                                                 <img class="img-fluid" src="{{asset('image/bromo-3.jpeg')  }}" alt="Photo">
@@ -115,7 +148,7 @@
                                                 <img class="img-fluid mb-3" src="{{ asset('image/paris.jpg') }}"
                                                     alt="Photo">
                                             </div>
->>>>>>> 97b01b6503a6f466562ad244229ab6a262c04349
+
                                             <!-- /.col -->
                                         </div>
                                         <!-- /.row -->
