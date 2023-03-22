@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
@@ -27,6 +28,8 @@ Route::get('/', [HomeController::class, 'index']) -> name('home');
 //     // Route::get('/raden', [ProfileController::class, 'raden']);
 //     Route::get('/{slug}', [ProfileController::class, 'profil']);
 // }) -> name('profil');
+
+Auth::routes();
 
 Route::get('/profil/{slug}', [ProfileController::class, 'profil']) -> name('profil');
 

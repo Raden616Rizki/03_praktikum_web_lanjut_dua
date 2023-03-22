@@ -45,6 +45,8 @@
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="/pengalaman" class="nav-link">Pengalaman Kuliah</a>
                 </li>
+
+                @yield('nav-logout')
             </ul>
         </nav>
         <!-- /.navbar -->
