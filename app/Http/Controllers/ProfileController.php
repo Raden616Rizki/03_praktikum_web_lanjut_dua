@@ -18,7 +18,10 @@ class ProfileController extends Controller
     //     $profil = Profil::getBySlug();
     //     return view('profile.raden') -> with('profil', $profil);
     // }
-
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function profil($slug) {
         $profil = Profil::getBySlug($slug);
         $hobi = Hobi::getBySlug($slug);

@@ -22,6 +22,7 @@ use App\Http\Controllers\PengalamanController;
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', [HomeController::class, 'index']) -> name('home');
+Route::redirect('/home', '/');
 
 // Route::prefix('profil') -> group (function () {
 //     // Route::get('/rafi', [ProfileController::class, 'rafi']);

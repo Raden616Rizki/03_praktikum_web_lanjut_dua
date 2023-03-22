@@ -8,6 +8,10 @@ use Illuminate\Http\Request;
 class PengalamanController extends Controller
 {
     //
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function pengalaman() {
         $kuliah = DB::table('kuliahs')
                     ->join('profils', 'kuliahs.id_profil', '=', 'profils.id_profil')
